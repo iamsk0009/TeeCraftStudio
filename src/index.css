@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+input[type="color"] {
+  /* Remove default appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Set dimensions */
+  width: 30px;
+  height: 30px;
+  /* Make it round */
+  border-radius: 50%;
+  /* Remove border and padding */
+  border: none;
+  padding: 0;
+  /* Optional: Add a cursor pointer */
+  cursor: pointer;
+  /* Optional: Add a subtle shadow for depth */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+  border-radius: 50%;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
+
+/* For Firefox */
+input[type="color"]::-moz-color-swatch {
+  border: none;
+  border-radius: 50%;
+}
+
+/* Custom Scrollbar Styles */
+/* For Webkit browsers (Chrome, Safari) */
+.scroll-container::-webkit-scrollbar {
+  width: 12px;
+  display: block;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: #A074DB;
+  border-radius: 8px;
+  border: 3px solid #f1f1f1;
+  min-height: 40px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #8B64C7;
+}
+
+/* For Firefox */
+.scroll-container {
+  scrollbar-width: auto !important;
+}
+
+/* Premium Animations */
+@keyframes pulse-glow {
+  0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 10px rgba(249, 115, 22, 0.4); }
+  50% { opacity: 0.9; transform: scale(1.03); box-shadow: 0 0 20px rgba(249, 115, 22, 0.6); }
+}
+
+@keyframes fade-slide-up {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-fade-slide-up {
+  animation: fade-slide-up 0.5s ease-out forwards;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.mesh-gradient {
+  background-color: #f8fafc;
+  background-image: 
+    radial-gradient(at 0% 0%, hsla(253,16%,90%,1) 0, transparent 50%), 
+    radial-gradient(at 50% 0%, hsla(225,39%,95%,1) 0, transparent 50%), 
+    radial-gradient(at 100% 0%, hsla(339,49%,95%,1) 0, transparent 50%);
+  background-blend-mode: multiply;
+}
+
+/* Glassmorphism Classes */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+

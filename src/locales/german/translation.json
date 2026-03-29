@@ -1,0 +1,113 @@
+{
+  "aiGeneration": {
+    "title": "KI-Design-Generierung",
+    "describeIdea": "Beschreiben Sie Ihre Designidee:",
+    "placeholder": "z. B. 'farbenfrohe geometrische Muster', 'Vintage-Blumenmuster', 'abstrakte Kunst mit kräftigen Farben'...",
+    "tryIdeas": "Probieren Sie diese Ideen aus:",
+    "suggestionsTitle": "KI-Vorschläge:",
+    "generatedDesigns": "Generierte Designs:",
+    "addButton": "Hinzufügen",
+    "generateButton": "KI-Design generieren",
+    "generatingButton": "Design wird generiert...",
+    "selectRegion": "Bitte wählen Sie zuerst einen Bereich aus, um KI-generierte Designs hinzuzufügen.",
+    "noTexture": "Keine Texturvorlage gefunden. Bitte wählen Sie zuerst ein Produkt aus.",
+    "freeLimit": "Kostenloses Generierungslimit erreicht (5 Designs). Upgraden Sie für unbegrenzte Generierungen.",
+    "remainingGenerations": "Noch {{count}} kostenlose Generierungen verfügbar.",
+    "infoMessage": "Die KI analysiert den ausgewählten Bereich und generiert eine Design-Überlagerung, die den bestehenden Inhalt ergänzt.",
+    "demoMode": "Demo-Modus: Setzen Sie VITE_GEMINI_API_KEY für alle KI-Funktionen.",
+    "upgradeMessage": "Upgraden Sie für unbegrenzte Generierungen."
+  },
+  "layers": {
+    "products": "Produkte",
+    "uploads": "Uploads",
+    "texts": "Texte",
+    "aiGeneration": "KI-Generierung",
+    "myDesigns": "Meine Designs",
+    "export": "Exportieren"
+  },
+  "upload": {
+    "categories": "Kategorien",
+    "addImage": "Bild hinzufügen",
+    "uploadedImages": "Hochgeladene Bilder",
+    "noImagesYet": "Noch keine Bilder hochgeladen.",
+    "selectRegion": "Wählen Sie einen Bereich auf dem Produkt aus, um Elemente hinzuzufügen",
+    "searchPlaceholder": "Bilder nach Namen, Tags oder Stichwörtern suchen...",
+    "Images": "Bilder",
+    "Shapes": "Formen",
+    "Cliparts": "Cliparts",
+    "Emojis": "Emojis",
+    "Illustrations": "Illustrationen",
+    "All": "Alle"
+  },
+  "categories": {
+    "all": "Alle",
+    "half_sleeve": "Kurzarm",
+    "socks": "Socken mit Futter",
+    "title": "Kategorie"
+  },
+  "productNames": {
+    "Half Sleeve Tshirt": "KURZARM",
+    "Socks with Linning": "SOCKEN MIT FUTTER"
+  },
+  "Products": {
+    "All": "Alle",
+    "Tshirt": "T-Shirt",
+    "Socks": "Socken"
+  },
+  "myDesigns": {
+    "title": "Gespeicherte Designs",
+    "noDesigns": "Keine Designs gefunden.",
+    "editDesign": "Dieses Design bearbeiten",
+    "openingDesign": "Ihr gespeichertes Design wird vorbereitet..."
+  },
+  "fileExport": {
+    "title": "Export-Optionen",
+    "selectViews": "Ansichten zum Exportieren auswählen:",
+    "frontView": "Vorderansicht",
+    "backView": "Rückansicht",
+    "rightView": "Rechte Ansicht",
+    "leftView": "Linke Ansicht",
+    "exportButton": "Ausgewählte Ansichten exportieren",
+    "downloading": "Wird heruntergeladen...",
+    "viewsInfo": "* Lädt hochauflösende Bilder Ihrer ausgewählten T-Shirt-Ansichten herunter"
+  },
+  "cart": {
+    "SizeandQuantity": "Größe und Menge",
+    "addToCart": "In den Warenkorb",
+    "addingToCart": "Wird zum Warenkorb hinzugefügt...",
+    "goToCart": "Zum Warenkorb",
+    "creatingCheckout": "Checkout wird erstellt...",
+    "creatingOrder": "Bestellung wird erstellt...",
+    "selectAtLeastOne": "Bitte wählen Sie mindestens einen Artikel aus",
+    "multipleSizesSelected": "Mehrere Größen ausgewählt",
+    "allSizesIncluded": "Alle ausgewählten Größen werden in einem einzigen Produkt für den Checkout zusammengefasst",
+    "total": "Artikel",
+    "singleSizeSelected": "Einzelne Größe ausgewählt",
+    "quantity": "Menge",
+    "failedToCreateOrder": "Fehler beim Erstellen der Bestellung:",
+    "technicalDetails": "Technische Details",
+    "failedToCreateCheckout": "Fehler beim Erstellen des Checkouts:",
+    "cartFlowFailed": "Warenkorb-Prozess fehlgeschlagen, Fallback-Methode wird verwendet:",
+    "anErrorOccurred": "Ein Fehler ist aufgetreten",
+    "failedToAddCart": "Fehler beim Hinzufügen zum Warenkorb. Bitte versuchen Sie es erneut."
+  },
+  "bottomControls": {
+    "zoomIn": "Vergrößern",
+    "zoomOut": "Verkleinern",
+    "saveDesign": "Design speichern",
+    "savingDesign": "Wird gespeichert...",
+    "designSaved": "Design erfolgreich gespeichert!",
+    "saveError": "Fehler beim Speichern des Designs. Bitte versuchen Sie es erneut."
+  },
+  "canvas": {
+    "viewin3d": "In 3D anzeigen"
+  },
+  "common": {
+    "sizeChart": "Größentabelle"
+  },
+  "alerts": {
+    "addImageOrText": "Bitte fügen Sie zuerst ein Bild oder Text hinzu",
+    "placeElements": "Platzieren Sie Designelemente auf dem Produkt.",
+    "confirm": "In Ordnung"
+  }
+}

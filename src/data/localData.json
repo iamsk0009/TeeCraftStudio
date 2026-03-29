@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "id": "tshirts",
+      "name": "Tshirt",
+      "enabled": true
+    },
+    {
+      "id": "socks",
+      "name": "Socks",
+      "enabled": true
+    }
+  ],
+  "products": [
+    {
+      "id": "tshirt-01",
+      "name": "Basic Cotton T-Shirt",
+      "category": "tshirts",
+      "modelUrl": "/models/BigTshirt.glb",
+      "textureUrl": "/svgs/tshirt.svg",
+      "thumbnailUrl": "/thumbnails/tshirt-thumbnail.png",
+      "sizeChartUrl": "/sizechart/Size_Chart_Polo.jpg",
+      "price": 19.99,
+      "enabled": true,
+      "selectedSvgIds": ["right", "left", "bottom", "collar", "left-sleeve_00000018229975118279668960000008221957603710628282_", "right-sleeve_00000065044763828982669170000015931324392930518666_"]
+    },
+    {
+      "id": "tshirt-02",
+      "name": "Compressed Cotton T-Shirt",
+      "category": "tshirts",
+      "modelUrl": "/models/tshirt-compressed.glb",
+      "textureUrl": "/svgs/tshirt.svg",
+      "thumbnailUrl": "/thumbnails/tshirt-thumbnail.png",
+      "sizeChartUrl": "/sizechart/Size_Chart_Polo.jpg",
+      "price": 17.99,
+      "enabled": true,
+      "selectedSvgIds": ["right", "left", "bottom", "collar", "left-sleeve_00000018229975118279668960000008221957603710628282_", "right-sleeve_00000065044763828982669170000015931324392930518666_"]
+    },
+    {
+      "id": "socks-01",
+      "name": "Custom Crew Socks",
+      "category": "socks",
+      "modelUrl": "/models/CrewSocks.glb",
+      "thumbnailUrl": "/thumbnails/socks-thumbnail.png",
+      "sizeChartUrl": "/images/size-chart-socks.png",
+      "price": 15.99,
+      "enabled": true
+    }
+  ],
+  "uploadCategories": [
+    { "id": "shapes", "name": "Shapes", "enabled": true },
+    { "id": "logos", "name": "Logos", "enabled": true },
+    { "id": "patterns", "name": "Patterns", "enabled": true }
+  ],
+  "uploadImages": [
+    { "id": "star", "name": "Star", "category": "shapes", "imageUrl": "https://img.icons8.com/ios-filled/100/star--v1.png" },
+    { "id": "circle", "name": "Circle", "category": "shapes", "imageUrl": "https://img.icons8.com/ios-filled/100/filled-circle.png" },
+    { "id": "heart", "name": "Heart", "category": "shapes", "imageUrl": "https://img.icons8.com/ios-filled/100/like.png" },
+    { "id": "square", "name": "Square", "category": "shapes", "imageUrl": "https://img.icons8.com/ios-filled/100/square.png" },
+    { "id": "triangle", "name": "Triangle", "category": "shapes", "imageUrl": "https://img.icons8.com/ios-filled/100/triangle.png" },
+    { "id": "logo-apple", "name": "Apple Logo", "category": "logos", "imageUrl": "https://img.icons8.com/ios-filled/100/mac-os.png" },
+    { "id": "logo-google", "name": "Google Logo", "category": "logos", "imageUrl": "https://img.icons8.com/ios-filled/100/google-logo.png" },
+    { "id": "logo-facebook", "name": "Facebook Logo", "category": "logos", "imageUrl": "https://img.icons8.com/ios-filled/100/facebook-new.png" }
+  ]
+}

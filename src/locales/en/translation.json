@@ -1,0 +1,117 @@
+{
+  "aiGeneration": {
+    "title": "AI Design Generation",
+    "describeIdea": "Describe your design idea:",
+    "placeholder": "e.g., 'colorful geometric patterns', 'vintage floral design', 'abstract art with bold colors'...",
+    "tryIdeas": "Try these ideas:",
+    "suggestionsTitle": "AI Suggestions:",
+    "generatedDesigns": "Generated Designs:",
+    "addButton": "Add",
+    "generateButton": "Generate AI Design",
+    "generatingButton": "Generating Design...",
+    "selectRegion": "Please select a region first to add AI-generated designs.",
+    "noTexture": "No texture template found. Please select a product first.",
+    "freeLimit": "Free generation limit reached (5 designs). Upgrade for unlimited generations.",
+    "remainingGenerations": "{{count}} free generations remaining.",
+    "infoMessage": "AI will analyze the selected region and generate a design overlay that complements the existing content.",
+    "demoMode": "Demo mode: Set VITE_GEMINI_API_KEY for full AI features.",
+    "upgradeMessage": "Upgrade for unlimited generations."
+  },
+  "layers": {
+    "products": "Products",
+    "uploads": "Uploads",
+    "texts": "Texts",
+    "aiGeneration": "AI Generation",
+    "myDesigns": "My Designs",
+    "export": "Export"
+  },
+  "upload": {
+    "categories": "Categories",
+    "addImage": "Add Image",
+    "uploadedImages": "Uploaded Images",
+    "noImagesYet": "No images uploaded yet.",
+    "selectRegion": "Select a region on the product to add elements",
+    "searchPlaceholder": "Search images by name, tags, or keywords...",
+    "Images": "Images",
+    "Logos": "Logos",
+    "Patterns": "Patterns",
+    "Shapes": "Shapes",
+    "Cliparts": "Cliparts",
+    "Emojis": "Emojis",
+    "Illustrations": "Illustrations",
+    "All": "All"
+  },
+  "categories": {
+    "all": "All",
+    "All": "All",
+    "half_sleeve": "Half Sleeve",
+    "socks": "Socks with Lining",
+    "title": "Category"
+  },
+
+  "productNames": {
+    "Half Sleeve Tshirt": "HALF SLEEVE",
+    "Socks with Linning": "SOCKS WITH LINNING"
+  },
+  "Products": {
+    "All": "All",
+    "Tshirt": "Tshirt",
+    "Socks": "Socks"
+  },
+  "myDesigns": {
+    "title": "Saved Designs",
+    "noDesigns": "No designs found.",
+    "editDesign": "Edit this design",
+    "openingDesign": "Your saved design is getting ready..."
+  },
+  "fileExport": {
+    "title": "Export Options",
+    "selectViews": "Select views to export:",
+    "frontView": "Front View",
+    "backView": "Back View",
+    "rightView": "Right View",
+    "leftView": "Left View",
+    "exportButton": "Export Selected Views",
+    "downloading": "Downloading...",
+    "viewsInfo": "* Downloads high-quality images of your selected T-shirt views"
+  },
+  "cart": {
+    "SizeandQuantity": "Size and Quantity",
+    "addToCart": "Add to Cart",
+    "addingToCart": "Adding to Cart...",
+    "goToCart": "Go to Cart",
+    "creatingCheckout": "Creating Checkout...",
+    "creatingOrder": "Creating Order...",
+    "selectAtLeastOne": "Please select at least one item",
+    "multipleSizesSelected": "Multiple sizes selected",
+    "allSizesIncluded": "All selected sizes will be included in a single product for checkout",
+    "total": "items",
+    "singleSizeSelected": "Single size selected",
+    "quantity": "Quantity",
+    "failedToCreateOrder": "Failed to create order:",
+    "technicalDetails": "Technical Details",
+    "failedToCreateCheckout": "Failed to create checkout:",
+    "cartFlowFailed": "Cart flow failed, using fallback method:",
+    "anErrorOccurred": "An error occurred",
+    "failedToAddCart": "Failed to add to cart. Please try again."
+  },
+  "bottomControls": {
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "saveDesign": "Save Design",
+    "savingDesign": "Saving ...",
+    "designSaved": "Design saved successfully!",
+    "saveError": "Failed to save design. Please try again."
+  },
+  "canvas": {
+    "viewin3d": "View in 3D"
+  },
+  "common": {
+    "sizeChart": "Size Chart"
+  },
+  "alerts": {
+    "addImageOrText": "Please add an image or text first",
+    "placeElements": "Place design elements on the product.",
+    "confirm": "OK"
+  }
+}

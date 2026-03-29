@@ -1,0 +1,113 @@
+{
+  "aiGeneration": {
+    "title": "AI Ontwerp Genereren",
+    "describeIdea": "Beschrijf uw ontwerpidee:",
+    "placeholder": "bijv. 'kleurrijke geometrische patronen', 'vintage bloemendessin', 'abstracte kunst met felle kleuren'...",
+    "tryIdeas": "Probeer deze ideeën:",
+    "suggestionsTitle": "AI Suggesties:",
+    "generatedDesigns": "Gegenereerde Ontwerpen:",
+    "addButton": "Toevoegen",
+    "generateButton": "Genereer AI Ontwerp",
+    "generatingButton": "Ontwerp Genereren...",
+    "selectRegion": "Selecteer eerst een gebied om door AI gegenereerde ontwerpen toe te voegen.",
+    "noTexture": "Geen textuursjabloon gevonden. Selecteer eerst een product.",
+    "freeLimit": "Gratis generatielimiet bereikt (5 ontwerpen). Upgrade voor onbeperkte generaties.",
+    "remainingGenerations": "Nog {{count}} gratis generaties over.",
+    "infoMessage": "AI analyseert het geselecteerde gebied en genereert een ontwerplaag die de bestaande inhoud aanvult.",
+    "demoMode": "Demomodus: Stel VITE_GEMINI_API_KEY in voor volledige AI-functies.",
+    "upgradeMessage": "Upgrade voor onbeperkte generaties."
+  },
+  "layers": {
+    "products": "Producten",
+    "uploads": "Uploads",
+    "texts": "Teksten",
+    "aiGeneration": "AI Generatie",
+    "myDesigns": "Mijn Ontwerpen",
+    "export": "Exporteren"
+  },
+  "upload": {
+    "categories": "Categorieën",
+    "addImage": "Afbeelding Toevoegen",
+    "uploadedImages": "Geüploade Afbeeldingen",
+    "noImagesYet": "Nog geen afbeeldingen geüpload.",
+    "selectRegion": "Selecteer een gebied op het product om elementen toe te voegen",
+    "searchPlaceholder": "Zoek afbeeldingen op naam, tags, of trefwoorden...",
+    "Images": "Afbeeldingen",
+    "Shapes": "Vormen",
+    "Cliparts": "Cliparts",
+    "Emojis": "Emoji's",
+    "Illustrations": "Illustraties",
+    "All": "Alles"
+  },
+  "categories": {
+    "all": "Alles",
+    "half_sleeve": "Korte Mouw",
+    "socks": "Sokken met Voering",
+    "title": "Categorie"
+  },
+  "productNames": {
+    "Half Sleeve Tshirt": "KORTE MOUW",
+    "Socks with Linning": "SOKKEN MET VOERING"
+  },
+  "Products": {
+    "All": "Alles",
+    "Tshirt": "T-shirt",
+    "Socks": "Sokken"
+  },
+  "myDesigns": {
+    "title": "Opgeslagen Ontwerpen",
+    "noDesigns": "Geen ontwerpen gevonden.",
+    "editDesign": "Bewerk dit ontwerp",
+    "openingDesign": "Uw opgeslagen ontwerp wordt voorbereid..."
+  },
+  "fileExport": {
+    "title": "Exportopties",
+    "selectViews": "Selecteer weergaven om te exporteren:",
+    "frontView": "Vooraanzicht",
+    "backView": "Achteraanzicht",
+    "rightView": "Rechterzijaanzicht",
+    "leftView": "Linkerzijaanzicht",
+    "exportButton": "Exporteer Geselecteerde Weergaven",
+    "downloading": "Downloaden...",
+    "viewsInfo": "* Downloadt afbeeldingen van hoge kwaliteit van uw geselecteerde T-shirt weergaven"
+  },
+  "cart": {
+    "SizeandQuantity": "Maat en Hoeveelheid",
+    "addToCart": "Toevoegen aan Winkelwagen",
+    "addingToCart": "Toevoegen aan Winkelwagen...",
+    "goToCart": "Naar Winkelwagen",
+    "creatingCheckout": "Afrekenen aanmaken...",
+    "creatingOrder": "Bestelling aanmaken...",
+    "selectAtLeastOne": "Selecteer ten minste één item",
+    "multipleSizesSelected": "Meerdere maten geselecteerd",
+    "allSizesIncluded": "Alle geselecteerde maten worden opgenomen in één product voor het afrekenen",
+    "total": "artikelen",
+    "singleSizeSelected": "Enkele maat geselecteerd",
+    "quantity": "Hoeveelheid",
+    "failedToCreateOrder": "Bestelling aanmaken mislukt:",
+    "technicalDetails": "Technische Details",
+    "failedToCreateCheckout": "Afrekenen aanmaken mislukt:",
+    "cartFlowFailed": "Winkelwagenproces mislukt, terugvalmethode wordt gebruikt:",
+    "anErrorOccurred": "Er is een fout opgetreden",
+    "failedToAddCart": "Toevoegen aan winkelwagen mislukt. Probeer het opnieuw."
+  },
+  "bottomControls": {
+    "zoomIn": "Inzoomen",
+    "zoomOut": "Uitzoomen",
+    "saveDesign": "Ontwerp Opslaan",
+    "savingDesign": "Opslaan...",
+    "designSaved": "Ontwerp succesvol opgeslagen!",
+    "saveError": "Ontwerp opslaan mislukt. Probeer het opnieuw."
+  },
+  "canvas":{
+    "viewin3d":"Bekijk in 3D"
+  },
+  "common": {
+    "sizeChart": "Maattabel"
+  },
+  "alerts": {
+    "addImageOrText": "Voeg eerst een afbeelding of tekst toe",
+    "placeElements": "Plaats ontwerpelementen op het product.",
+    "confirm": "Oké"
+  }
+}

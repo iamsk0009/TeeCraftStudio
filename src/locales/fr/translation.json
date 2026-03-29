@@ -1,0 +1,114 @@
+{
+  "aiGeneration": {
+    "title": "Génération de Design IA",
+    "describeIdea": "Décrivez votre idée de design :",
+    "placeholder": "par ex., 'motifs géométriques colorés', 'design floral vintage', 'art abstrait avec des couleurs vives'...",
+    "tryIdeas": "Essayez ces idées :",
+    "suggestionsTitle": "Suggestions IA :",
+    "generatedDesigns": "Designs Générés :",
+    "addButton": "Ajouter",
+    "generateButton": "Générer un Design IA",
+    "generatingButton": "Génération du Design...",
+    "selectRegion": "Veuillez d'abord sélectionner une région pour ajouter des designs générés par IA.",
+    "noTexture": "Aucun modèle de texture trouvé. Veuillez d'abord sélectionner un produit.",
+    "freeLimit": "Limite de générations gratuites atteinte (5 designs). Passez à la version premium pour des générations illimitées.",
+    "remainingGenerations": "{{count}} générations gratuites restantes.",
+    "infoMessage": "L'IA analysera la région sélectionnée et générera un design qui complète le contenu existant.",
+    "demoMode": "Mode démo : Configurez VITE_GEMINI_API_KEY pour les fonctionnalités IA complètes.",
+    "upgradeMessage": "Passez à la version premium pour des générations illimitées."
+  },
+  "layers": {
+    "products": "Produits",
+    "uploads": "Téléchargements",
+    "texts": "Textes",
+    "aiGeneration": "Génération IA",
+    "myDesigns": "Mes Designs",
+    "export": "Exporter"
+  },
+  "upload": {
+    "categories": "Catégories",
+    "addImage": "Ajouter une Image",
+    "uploadedImages": "Images Téléchargées",
+    "noImagesYet": "Aucune image téléchargée.",
+    "selectRegion": "Sélectionnez une région sur le produit pour ajouter des éléments",
+    "searchPlaceholder": "Rechercher des images par nom, tags ou mots-clés...",
+    "Images": "images",
+    "Shapes": "Formes",
+    "Cliparts": "Cliparts",
+    "Emojis": "Émojis",
+    "Illustrations": "Illustrations",
+    "All": "Tout"
+  },
+  "categories": {
+    "all": "Tout",
+    "half_sleeve": "Manche Courte",
+    "socks": "Chaussettes avec Doublure",
+    "title": "Catégorie"
+  },
+
+  "productNames": {
+    "Half Sleeve Tshirt": "MANCHE COURTE",
+    "Socks with Linning": "CHAUSSETTES AVEC DOUBLURE"
+  },
+  "Products": {
+    "All": "Tout",
+    "Tshirt": "T-shirt",
+    "Socks": "Chaussettes"
+  },
+  "myDesigns": {
+    "title": "Designs Sauvegardés",
+    "noDesigns": "Aucun design trouvé.",
+    "editDesign": "Modifier ce design",
+    "openingDesign": "Votre design sauvegardé est en cours de préparation..."
+  },
+  "fileExport": {
+    "title": "Options d'Exportation",
+    "selectViews": "Sélectionnez les vues à exporter :",
+    "frontView": "Vue de Face",
+    "backView": "Vue de Dos",
+    "rightView": "Vue de Droite",
+    "leftView": "Vue de Gauche",
+    "exportButton": "Exporter les Vues Sélectionnées",
+    "downloading": "Téléchargement...",
+    "viewsInfo": "* Télécharge des images haute qualité des vues sélectionnées de votre T-shirt"
+  },
+  "cart": {
+    "SizeandQuantity": "Taille et Quantité",
+    "addToCart": "Ajouter au Panier",
+    "addingToCart": "Ajout au Panier...",
+    "goToCart": "Aller au Panier",
+    "creatingCheckout": "Création du Paiement...",
+    "creatingOrder": "Création de la Commande...",
+    "selectAtLeastOne": "Veuillez sélectionner au moins un article",
+    "multipleSizesSelected": "Plusieurs tailles sélectionnées",
+    "allSizesIncluded": "Toutes les tailles sélectionnées seront incluses dans un seul produit pour le paiement",
+    "total": "articles",
+    "singleSizeSelected": "Taille unique sélectionnée",
+    "quantity": "Quantité",
+    "failedToCreateOrder": "Échec de la création de la commande :",
+    "technicalDetails": "Détails Techniques",
+    "failedToCreateCheckout": "Échec de la création du paiement :",
+    "cartFlowFailed": "Échec du processus du panier, utilisation de la méthode de secours :",
+    "anErrorOccurred": "Une erreur est survenue",
+    "failedToAddCart": "Échec de l'ajout au panier. Veuillez réessayer."
+  },
+  "bottomControls": {
+    "zoomIn": "Zoom Avant",
+    "zoomOut": "Zoom Arrière",
+    "saveDesign": "Sauvegarder le Design",
+    "savingDesign": "Sauvegarde ...",
+    "designSaved": "Design sauvegardé avec succès!",
+    "saveError": "Échec de la sauvegarde du design. Veuillez réessayer."
+  },
+  "canvas": {
+    "viewin3d": "Voir en 3D"
+  },
+  "common": {
+    "sizeChart": "Guide des Tailles"
+  },
+  "alerts": {
+    "addImageOrText": "Veuillez d'abord ajouter une image ou du texte",
+    "placeElements": "Placez des éléments de design sur le produit.",
+    "confirm": "D'accord"
+  }
+}
