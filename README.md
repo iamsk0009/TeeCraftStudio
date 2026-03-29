@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MySocks 3D Product Configurator
 
 A comprehensive 3D product customization tool running locally. This application relies completely on realistic mock data rather than WooCommerce and Firebase live APIs, enabling a fully offline experience without CORS issues or third-party dependencies.
@@ -55,3 +56,7 @@ The application should start up dynamically at `http://localhost:5173` with simu
 - `/src/data/mockData.js`: Centralized placeholder definitions for API responses.
 - `/src/services/woocommerceApi.js`: Core service file modified to return local HTTP Mock logic via an Axios Interceptor if standard keys are missing.
 - `/public/models/` and `/public/hdri/`: Assets served statically on localhost runtime to resolve CORS model loads.
+=======
+# TeeCraftStudio
+3D Tshirt Configurator
+>>>>>>> 8521bfabcb21c925b5d85adf64fa5eebfae573c2
